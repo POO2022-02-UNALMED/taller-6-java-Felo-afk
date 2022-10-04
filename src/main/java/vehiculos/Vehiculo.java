@@ -7,6 +7,7 @@ public class Vehiculo {
 	protected int velocidadMaxima;
 	protected String nombre;
 	protected int precio;
+	protected int peso;
 	protected String traccion;
 	protected Fabricante fabricante;
  	private static int  cantidadVehiculos = 0;
@@ -16,6 +17,7 @@ public class Vehiculo {
  		this.velocidadMaxima=velocidadMaxima;
  		this.nombre=nombre;
  		this.precio=precio;
+ 		this.peso=peso;
  		this.traccion=traccion;
  		this.fabricante=fabricante;
  		this.cantidadVehiculos++;
@@ -54,6 +56,12 @@ public class Vehiculo {
  	public void setPrecio(int p) {
  		this.precio=p;
  	}
+	public int getPeso() {
+ 		return this.peso;
+ 	}
+ 	public void setPeso(int p) {
+ 		this.peso=p;
+ 	}
  	public String getTraccion() {
  		return this.traccion;
  	}
@@ -68,6 +76,9 @@ public class Vehiculo {
  	}
  	public int getCantidadVehiculos() {
  		return this.cantidadVehiculos;
+ 	}
+ 	public void setCantidadVehiculos(int can) {
+ 		this.cantidadVehiculos=can;
  	}
  	public void vehiculosPorTipo() {
  		System.out.println("Automoviles: "+Automovil.getCantidadAutomoviles()+"\nCamionetas: "+Camioneta.getCantidadCamionetas()+"\nCamiones: "+ Camion.getCantidadCamiones());
