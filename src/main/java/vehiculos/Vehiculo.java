@@ -20,7 +20,7 @@ public class Vehiculo {
  		this.peso=peso;
  		this.traccion=traccion;
  		this.fabricante=fabricante;
- 		this.cantidadVehiculos++;
+ 		cantidadVehiculos++;
  		vehiculos.add(this);
  	}
  	public ArrayList getVehiculos() {
@@ -77,8 +77,8 @@ public class Vehiculo {
  	public int getCantidadVehiculos() {
  		return this.cantidadVehiculos;
  	}
- 	public void setCantidadVehiculos(int can) {
- 		this.cantidadVehiculos=can;
+ 	public static void setCantidadVehiculos(int can) {
+ 		Vehiculo.cantidadVehiculos=can;
  	}
  	public void vehiculosPorTipo() {
  		System.out.println("Automoviles: "+Automovil.getCantidadAutomoviles()+"\nCamionetas: "+Camioneta.getCantidadCamionetas()+"\nCamiones: "+ Camion.getCantidadCamiones());
