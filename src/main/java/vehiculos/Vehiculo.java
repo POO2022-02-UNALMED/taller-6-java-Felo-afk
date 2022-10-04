@@ -1,7 +1,7 @@
 package vehiculos;
 import java.util.ArrayList;
 public class Vehiculo {
-p	public static ArrayList<Vehiculo> new=vehiculos ArrayList<Vehiculo>();
+p	public static ArrayList<Vehiculo> vehiculos=new ArrayList<Vehiculo>();
 	protected String placa;
 	protected int puertas;
 	protected int velocidadMaxima;

@@ -4,7 +4,7 @@ import java.util.Collections;
 public class Fabricante {
 	String nombre;
 	Pais pais;
-	public static ArrayList<Fabricante> new=frabricantes ArrayList<Fabricante>();
+	public static ArrayList<Fabricante> frabricantes= new ArrayList<Fabricante>();
 	public Fabricante(String nombre, Pais pais) {
 		this.nombre=nombre;
 		this.pais=pais;

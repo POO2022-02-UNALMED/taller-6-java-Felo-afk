@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 public class Pais {
 	String nombre;
-	private static ArrayList<Pais> new= Paises ArrayList<Pais>();
+	private static ArrayList<Pais> paises=new ArrayList<Pais>();
 	public Pais(String nombre) {
 		this.nombre=nombre;
 		paises.add(this);
