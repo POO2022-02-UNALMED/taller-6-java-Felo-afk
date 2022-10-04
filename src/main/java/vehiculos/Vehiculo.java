@@ -51,7 +51,7 @@ public class Vehiculo {
  	public int getPrecio() {
  		return this.precio;
  	}
- 	public void setPrecio(String p) {
+ 	public void setPrecio(int p) {
  		this.precio=p;
  	}
  	public String getTraccion() {
@@ -70,6 +70,6 @@ public class Vehiculo {
  		return this.cantidadVehiculos;
  	}
  	public void vehiculosPorTipo() {
- 		System.out.println("Automoviles: "+Automovil.getCantidadAutomoviles+"\nCamionetas: "+Camioneta.getCantidadCamionetas+"\nCamiones: "+ Camion.getCantidadCamiones);
+ 		System.out.println("Automoviles: "+Automovil.getCantidadAutomoviles()+"\nCamionetas: "+Camioneta.getCantidadCamionetas()+"\nCamiones: "+ Camion.getCantidadCamiones());
  	}
 }

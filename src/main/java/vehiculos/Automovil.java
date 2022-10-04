@@ -5,7 +5,7 @@ public class Automovil extends Vehiculo {
 	public static ArrayList<Automovil> automoviles=new ArrayList<Automovil>();
 	private static int cantidadAutomoviles=0;
 	public Automovil(String placa,String nombre, int precio, Fabricante fabricante, int puestos) {
-		super(placa,4,"100",nombre, precio, "FWD",fabricante);
+		super(placa,4,100,nombre, precio, "FWD",fabricante);
 		this.puestos=puestos;
 		this.cantidadAutomoviles++;
 		automoviles.add(this);

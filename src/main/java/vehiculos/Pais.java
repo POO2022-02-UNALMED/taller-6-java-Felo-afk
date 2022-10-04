@@ -16,7 +16,7 @@ public class Pais {
 	}
 	public static Pais paisMasVendedor() {
 		ArrayList<Integer> neds = new ArrayList<Integer>();
-		for (int i = 0; i < listado.size();i++ ) {
+		for (int i = 0; i < paises.size();i++ ) {
 		    neds.add(0);
 			for (int j =0; j< Vehiculo.vehiculos.size(); j++) {
 				if (Vehiculo.vehiculos.get(j).fabricante.getPais().getNombre() == fabricantes.get(i).getNombre()) {

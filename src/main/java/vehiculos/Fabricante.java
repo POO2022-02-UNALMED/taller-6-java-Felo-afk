@@ -4,7 +4,7 @@ import java.util.Collections;
 public class Fabricante {
 	String nombre;
 	Pais pais;
-	public static ArrayList<Fabricante> frabricantes= new ArrayList<Fabricante>();
+	public static ArrayList<Fabricante> fabricantes= new ArrayList<Fabricante>();
 	public Fabricante(String nombre, Pais pais) {
 		this.nombre=nombre;
 		this.pais=pais;
@@ -34,8 +34,8 @@ public class Fabricante {
             }
             
         }
-        int maximoIndex = vends.indexOf(Collections.max(vends));
-        return fabricantes.get(maximoIndex);
+        int maxi = vends.indexOf(Collections.max(vends));
+        return fabricantes.get(maxi);
         
     }
 }
