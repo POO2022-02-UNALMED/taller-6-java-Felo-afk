@@ -20,9 +20,9 @@ public class Automovil extends Vehiculo {
  		this.puestos=p;
  	}
  	public static int getCantidadAutomoviles() {
- 		return this.cantidadAutomoviles;
+ 		return cantidadAutomoviles;
  	}
  	public void setCantidadAutomoviles(int c) {
- 		this.cantidadAutomoviles=c;
+ 		cantidadAutomoviles=c;
  	}
 }

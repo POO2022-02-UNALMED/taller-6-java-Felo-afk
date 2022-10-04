@@ -20,9 +20,9 @@ public class Camion extends Vehiculo {
  		this.ejes=e;
  	}
  	public static int getCantidadCamiones() {
- 		return this.cantidadCamiones;
+ 		return cantidadCamiones;
  	}
  	public void setCantidadCamiones(int c) {
- 		this.cantidadCamiones=c;
+ 		cantidadCamiones=c;
  	}
 }
