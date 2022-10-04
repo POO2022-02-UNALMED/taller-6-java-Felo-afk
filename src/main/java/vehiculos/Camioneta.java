@@ -19,7 +19,7 @@ public class Camioneta extends Vehiculo{
 	public void setVolco(boolean v) {
 		this.volco=v;
 	}
- 	public int getCantidadCamioentas() {
+ 	public static int getCantidadCamionetas() {
  		return this.cantidadCamionetas;
  	}
  	public void setCantidadCamionetas(int c) {

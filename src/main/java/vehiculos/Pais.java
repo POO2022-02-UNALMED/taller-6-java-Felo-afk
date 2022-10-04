@@ -19,7 +19,7 @@ public class Pais {
 		for (int i = 0; i < paises.size();i++ ) {
 		    neds.add(0);
 			for (int j =0; j< Vehiculo.vehiculos.size(); j++) {
-				if (Vehiculo.vehiculos.get(j).fabricante.getPais().getNombre() == fabricantes.get(i).getNombre()) {
+				if (Vehiculo.vehiculos.get(j).fabricante.getPais().getNombre() == paises.get(i).getNombre()) {
 					neds.set(i, neds.get(i)+1);
 				}
 				
